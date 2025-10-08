@@ -33,7 +33,7 @@ Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
   <img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="300"/>
 </a>
 
-Klik gambar untuk menonton video di Facebook.
+Klik gambar untuk menonton video.
 
 ## Fitur
 
