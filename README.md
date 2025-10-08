@@ -2,7 +2,7 @@
 
 ![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/atex-npm.jpg)
 
-Bot WhatsApp interaktif berbasis **atexovi-baileys**. Bot ini menampilkan berbagai jenis tombol interaktif:
+Bot WhatsApp interaktif berbasis [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). Bot ini menampilkan berbagai jenis tombol interaktif:
 
 * Quick Reply Button
 * URL Button
@@ -15,20 +15,21 @@ Anda bisa mengembangkan template ini sesuai kebutuhan, menyesuaikan nama, pesan,
 
 ## Demo / Screenshots
 
-### List Button
-![List Button](https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg" width="200" />
+  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg" width="200" />
+  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg" width="200" />
+  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg" width="200" />
+  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg" width="200" />
+</p>
 
-### URL Button
-![URL Button](https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg)
+## Tutorial Instalasi
 
-### Call Button
-![Call Button](https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg)
+Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
 
-### Quick Reply Button
-![Quick Reply Button](https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg)
+[![Tutorial Instalasi Bot](https://raw.githubusercontent.com/atex-ovi/atexovi-wabase-button/main/assets/logo.png)](https://www.facebook.com/share/v/1HjdxkzLmR/)
 
-### Copy Button
-![Copy Button](https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg)
+Klik gambar untuk menonton video di Facebook.
 
 ## Fitur
 
@@ -61,7 +62,7 @@ atexovi-wabase-button/
     └── userState.js
 ```
 
-## Persiapan
+## Persiapan (Untuk [Termux](https://termux.com/))
 
 1. Clone repository:
 
