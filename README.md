@@ -143,7 +143,7 @@ Gunakan bot ini dengan tanggung jawab sendiri dan hindari spam atau penyalahguna
 
 
 ## Donasi
-Dukung pengembangan bot ini melalui: [Saweria](https://saweria.co/atexovi)
+Dukung pengembangan bot ini melalui [Saweria](https://saweria.co/atexovi)
 
 ## Special Thanks
 - [WhatsApp API](https://www.whatsapp.com) - teknologi resmi WhatsApp untuk integrasi pesan.
