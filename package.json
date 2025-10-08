@@ -1,0 +1,24 @@
+{
+  "name": "atexovi-wabase-button",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp interaktif berbasis atexovi-baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Atex Ovi",
+  "license": "ISC",
+  "dependencies": {
+    "atexovi-baileys": "^7.0.2",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^17.2.3",
+    "figlet": "^1.9.3",
+    "inquirer": "^12.9.6",
+    "ora": "^9.0.0",
+    "pino": "^10.0.0"
+  }
+}
