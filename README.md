@@ -29,7 +29,7 @@ Anda bisa mengembangkan template ini sesuai kebutuhan, menyesuaikan nama, pesan,
 
 Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
 
-[![Tutorial Instalasi Bot](https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb)](https://www.facebook.com/share/v/1HjdxkzLmR/)
+[![Tutorial Instalasi Bot](https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg)](https://www.facebook.com/share/v/1HjdxkzLmR/)
 Klik gambar untuk menonton video di Facebook.
 
 ## Fitur
