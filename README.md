@@ -15,20 +15,21 @@ Anda bisa mengembangkan template ini sesuai kebutuhan, menyesuaikan nama, pesan,
 
 ## Demo / Screenshots
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg" width="200" />
-  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg" width="200" />
-  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg" width="200" />
-  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg" width="200" />
-  <img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg" width="200" />
-</p>
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg" width="150"></td>
+    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg" width="150"></td>
+    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg" width="150"></td>
+    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg" width="150"></td>
+    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg" width="150"></td>
+  </tr>
+</table>
 
 ## Tutorial Instalasi
 
 Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
 
-[![Tutorial Instalasi Bot](https://raw.githubusercontent.com/atex-ovi/atexovi-wabase-button/main/assets/logo.png)](https://www.facebook.com/share/v/1HjdxkzLmR/)
-
+[![Tutorial Instalasi Bot](https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb)](https://www.facebook.com/share/v/1HjdxkzLmR/)
 Klik gambar untuk menonton video di Facebook.
 
 ## Fitur
