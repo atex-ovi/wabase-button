@@ -152,7 +152,7 @@ This bot uses the **atexovi-baileys** library, which is open-source and unoffici
 Use this bot at your own risk and avoid spam or abuse.
 
 ## Donations
-Support the development of this bot through [Saweria](https://saweria.co/atexovi)
+Support the bot development via [Saweria](https://saweria.co/atexovi)
 
 ## Special Thanks
 - [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
