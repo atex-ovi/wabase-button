@@ -147,10 +147,9 @@ Thumbs.db
 
 WhatsApp is a trademark of WhatsApp Inc.
 
-This bot uses the **atexovi-baileys** library, which is open-source and unofficial.
+This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
 
 Use this bot at your own risk and avoid spam or abuse.
-
 ## Donations
 Support the bot development via [Saweria](https://saweria.co/atexovi)
 
@@ -158,7 +157,6 @@ Support the bot development via [Saweria](https://saweria.co/atexovi)
 - [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
 - [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
 - [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
-- [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys) - bot template development.
 
 ## License
 
