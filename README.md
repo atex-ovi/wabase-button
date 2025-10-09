@@ -1,6 +1,6 @@
 # Atex Ovi WA Bot
 
-![npm](https://img.shields.io/npm/v/atexovi-baileys?color=brightred) &nbsp;
+![npm](https://img.shields.io/npm/v/atexovi-![npm](https://img.shields.io/npm/v/atexovi-baileys?color=red) &nbsp;
 ![Node.js](https://img.shields.io/badge/Node.js->=20-blue) &nbsp;
 ![License](https://img.shields.io/npm/l/atexovi-baileys?color=yellow) &nbsp;
 ![GitHub stars](https://img.shields.io/github/stars/atex-ovi/atexovi-baileys?style=social&color=blue) &nbsp;
