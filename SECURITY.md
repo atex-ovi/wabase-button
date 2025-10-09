@@ -1,21 +1,34 @@
-# Security Policy
+# Security Policy - Wabase Button
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This table shows which versions of **wabase-button** are currently supported with security updates:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+|---------|-----------|
+| 1.x.x   | ✅        |
+| < 1.0.0 | ❌        |
+
+---
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security issue in **wabase-button**, please report it responsibly.  
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+### Preferred Method
+- **GitHub Issues (Recommended)**  
+  [Create a security issue](https://github.com/atex-ovi/wabase-button/issues/new/choose)
+
+### Alternative Contact
+- **Telegram**  
+  [![Telegram](https://img.shields.io/badge/Telegram-@atexovi-blue?logo=telegram)](https://t.me/atexovi)
+
+> ⚠️ Please avoid spamming or sharing sensitive info publicly. Use the GitHub Issues or Telegram contact for responsible disclosure only.
+
+---
+
+## Notes
+
+- Ensure your project is updated to the latest supported version.  
+- Only versions marked ✅ in the table receive security fixes.  
+- This policy applies to all forks and derivative works based on **wabase-button**.
