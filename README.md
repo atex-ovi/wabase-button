@@ -77,7 +77,7 @@ atexovi-wabase-button/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/atex-ovi/atexovi-wabase-button.git
+git clone https://github.com/atex-ovi/wabase-button.git
 cd wabase-button
 ```
 
