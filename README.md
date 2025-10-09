@@ -78,7 +78,7 @@ atexovi-wabase-button/
 
 ```bash
 git clone https://github.com/atex-ovi/atexovi-wabase-button.git
-cd atexovi-wabase-button
+cd wabase-button
 ```
 
 2. Copy the `.env.example` file to `.env` and adjust the configuration:
