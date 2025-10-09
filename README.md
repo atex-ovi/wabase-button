@@ -72,7 +72,7 @@ atexovi-wabase-button/
 └── userState.js
 ```
 
-## Preparation (For Termux)(https://termux.com/))
+## Preparation (For [Termux](https://termux.com/))
 
 1. Clone the repository:
 
