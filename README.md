@@ -162,4 +162,4 @@ Support the bot development via [Saweria](https://saweria.co/atexovi)
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
