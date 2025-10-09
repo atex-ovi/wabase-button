@@ -4,7 +4,8 @@
 ![Node.js](https://img.shields.io/badge/Node.js->=20-blue) &nbsp;
 ![License](https://img.shields.io/npm/l/atexovi-baileys?color=yellow) &nbsp;
 ![GitHub stars](https://img.shields.io/github/stars/atex-ovi/atexovi-baileys?style=social&color=blue) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/atex-ovi/atexovi-baileys?style=social&color=blue)
+![GitHub forks](https://img.shields.io/github/forks/atex-ovi/atexovi-baileys?style=social&color=blue) &nbsp;
+![Bot Version](https://img.shields.io/github/v/release/atex-ovi/atexovi-baileys?color=brightgreen)
 
 ![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/atex-npm.jpg)
 
