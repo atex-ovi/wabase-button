@@ -53,10 +53,9 @@ Click the image to watch the video.
 ## Directory Structure
 
 ```
-atexovi-wabase-button/
+wabase-button/
+├── LICENSE
 ├── README.md
-├── assets/
-│ └── logo.png
 ├── .env.example
 ├── .gitignore
 ├── index.js
