@@ -1,5 +1,5 @@
 {
-  "name": "atexovi-wabase-button",
+  "name": "wabase-button",
   "version": "1.0.0",
   "description": "Bot WhatsApp interaktif berbasis atexovi-baileys",
   "main": "index.js",
