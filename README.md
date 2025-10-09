@@ -29,7 +29,7 @@ Anda bisa mengembangkan template ini sesuai kebutuhan, menyesuaikan nama, pesan,
 
 Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
 
-<a href="https://www.facebook.com/share/v/1HjdxkzLmR/">
+<a href="https://www.facebook.com/share/v/19eLYV7MKC/">
   <img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="300"/>
 </a>
 
