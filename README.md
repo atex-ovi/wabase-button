@@ -8,7 +8,7 @@
 
 ![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/atex-npm.jpg)
 
-Bot WhatsApp interaktif berbasis [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). Bot ini menampilkan berbagai jenis tombol interaktif:
+An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). This bot displays various types of interactive buttons:
 
 * Quick Reply Button
 * URL Button
@@ -16,72 +16,72 @@ Bot WhatsApp interaktif berbasis [atexovi-baileys](https://www.npmjs.com/package
 * Copy Button
 * List Button
 
-Bot ini menggunakan **Atex Ovi** sebagai identitas default dan nama pengirim pesan.
-Anda bisa mengembangkan template ini sesuai kebutuhan, menyesuaikan nama, pesan, maupun tombol interaktif.
+This bot uses **Atex Ovi** as the default identity and sender name.
+You can expand this template to your needs, customizing the name, message, and interactive buttons.
 
-## Demo / Screenshots
+## Demos / Screenshots
 
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg" width="150"></td>
-    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg" width="150"></td>
-    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg" width="150"></td>
-    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg" width="150"></td>
-    <td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg" width="150"></td>
-  </tr>
+<table> 
+<tr> 
+<td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/list-button.jpg" width="150"></td> 
+<td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/url-button.jpg" width="150"></td> 
+<td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/call-button.jpg" width="150"></td> 
+<td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/quick-reply-button.jpg" width="150"></td> 
+<td><img src="https://raw.githubusercontent.com/atex-ovi/demo-button/main/copy-button.jpg" width="150"></td>
+</tr>
 </table>
 
-## Tutorial Instalasi
+## Installation Tutorial
 
-Tonton video tutorial berikut untuk langkah-langkah instalasi bot:
+Watch the following video tutorial for bot installation steps:
 
-<a href="https://www.facebook.com/share/v/19eLYV7MKC/">
-  <img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="300"/>
+<a href="https://www.facebook.com/share/v/1HjdxkzLmR/">
+<img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="300"/>
 </a>
 
-Klik gambar untuk menonton video.
+Click the image to watch the video.
 
-## Fitur
+## Features
 
-* Template pesan interaktif dengan berbagai jenis tombol
+* Interactive message templates with various button types
 * Quick Reply Button
 * URL Button
 * Call Button
 * Copy Button
-* Button dengan multiple opsi
+* Buttons with multiple options
 
-## Struktur Direktori
+## Directory Structure
 
 ```
 atexovi-wabase-button/
 ├── README.md
 ├── assets/
-│   └── logo.png
+│ └── logo.png
 ├── .env.example
 ├── .gitignore
 ├── index.js
 ├── package-lock.json
 ├── package.json
 └── src
-    ├── features
-    │   ├── callButton.js
-    │   ├── copyButton.js
-    │   ├── quickReplyButton.js
-    │   └── urlButton.js
-    ├── handler.js
-    └── userState.js
+├── features
+│ ├── callButton.js
+│ ├── copyButton.js
+│ ├── quickReplyButton.js
+│ └── urlButton.js
+├── handler.js
+└── userState.js
 ```
 
-## Persiapan (Untuk [Termux](https://termux.com/))
+## Preparation (For Termux)(https://termux.com/))
 
-1. Clone repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/atex-ovi/atexovi-wabase-button.git
 cd atexovi-wabase-button
 ```
 
-2. Salin file `.env.example` menjadi `.env` dan sesuaikan konfigurasi:
+2. Copy the `.env.example` file to `.env` and adjust the configuration:
 
 ```env
 BOT_NUMBER=6281234567890
@@ -96,26 +96,26 @@ PHONE_NUMBER=6281234567890
 npm install
 ```
 
-## Menjalankan Bot
+## Running the Bot
 
-Dengan Node.js langsung:
+With Node.js directly:
 
 ```bash
 node index.js
 ```
-Atau menggunakan npm:
+Or using npm:
 
 ```bash
 npm start
 ```
 
-Ikuti instruksi pairing code yang muncul di terminal untuk menghubungkan bot ke WhatsApp.
+Follow the pairing code instructions that appear in the terminal to connect the bot to WhatsApp.
 
-## Catatan
+## Notes
 
-* Folder `session/` akan dibuat secara otomatis untuk menyimpan autentikasi.
-* File `.env` berisi data sensitif, jangan commit ke repository publik.
-* Template ini bersifat fleksibel, Anda bisa menyesuaikan pesan, tombol, dan branding sesuai kebutuhan.
+* A `session/` folder will be created automatically to store authentication.
+* The `.env` file contains sensitive data; do not commit it to the public repository.
+* This template is flexible; you can customize the message, buttons, and branding as needed.
 
 ## .gitignore
 
@@ -126,7 +126,7 @@ node_modules/
 # Environment variables
 .env
 
-# Session folder (autentikasi WhatsApp)
+# Session folder (WhatsApp authentication)
 session/
 
 # Temporary files
@@ -145,24 +145,21 @@ Thumbs.db
 
 ## Disclaimer
 
-WhatsApp adalah merek dagang dari WhatsApp Inc.
+WhatsApp is a trademark of WhatsApp Inc.
 
-Bot ini menggunakan library **atexovi-baileys**, yang merupakan library open-source dan tidak resmi.
+This bot uses the **atexovi-baileys** library, which is open-source and unofficial.
 
+Use this bot at your own risk and avoid spam or abuse.
 
-Gunakan bot ini dengan tanggung jawab sendiri dan hindari spam atau penyalahgunaan.
-
-
-## Donasi
-Dukung pengembangan bot ini melalui [Saweria](https://saweria.co/atexovi)
+## Donations
+Support the development of this bot through [Saweria](https://saweria.co/atexovi)
 
 ## Special Thanks
-- [WhatsApp API](https://www.whatsapp.com) - teknologi resmi WhatsApp untuk integrasi pesan.
-- [adiwajshing (Baileys)](https://github.com/adiwajshing) - pengembang library Baileys untuk WhatsApp API.
-- [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - kontribusi tambahan pada Baileys.
-- [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys) - pengembangan template bot.
+- [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
+- [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
+- [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
+- [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys) - bot template development.
 
-
-## Lisensi
+## License
 
 ISC
