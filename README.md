@@ -7,7 +7,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/atex-ovi/atexovi-baileys?style=social&color=blue) &nbsp;
 ![Bot Version](https://img.shields.io/github/v/release/atex-ovi/wabase-button?color=brightgreen)
 
-![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/atex-npm.jpg)
+![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/wabase-logo.jpg)
 
 An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). This bot displays various types of interactive buttons:
 
