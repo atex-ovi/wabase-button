@@ -22,6 +22,8 @@
   </a>
 </p>
 
+<br><br>
+
 ![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/wabase-logo.jpg)
 
 An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). This bot displays various types of interactive buttons:
