@@ -51,6 +51,8 @@ You can expand this template to your needs, customizing the name, message, and i
 </tr>
 </table>
 
+<br><br>
+
 ## Installation Tutorial
 
 Watch the following video tutorial for bot installation steps:
@@ -61,6 +63,8 @@ Watch the following video tutorial for bot installation steps:
 
 Click the image to watch the video.
 
+<br><br>
+
 ## Features
 
 * Interactive message templates with various button types
@@ -69,6 +73,8 @@ Click the image to watch the video.
 * Call Button
 * Copy Button
 * Buttons with multiple options
+
+<br><br>
 
 ## Directory Structure
 
@@ -90,6 +96,8 @@ wabase-button/
 ├── handler.js
 └── userState.js
 ```
+
+<br><br>
 
 ## Preparation (For [Termux](https://termux.com/))
 
@@ -115,6 +123,8 @@ PHONE_NUMBER=6281234567890
 npm install
 ```
 
+<br><br>
+
 ## Running the Bot
 
 With Node.js directly:
@@ -130,11 +140,15 @@ npm start
 
 Follow the pairing code instructions that appear in the terminal to connect the bot to WhatsApp.
 
+<br><br>
+
 ## Notes
 
 * A `session/` folder will be created automatically to store authentication.
 * The `.env` file contains sensitive data; do not commit it to the public repository.
 * This template is flexible; you can customize the message, buttons, and branding as needed.
+
+<br><br>
 
 ## .gitignore
 
@@ -162,6 +176,8 @@ Thumbs.db
 .idea/
 ```
 
+<br><br>
+
 ## Disclaimer
 
 WhatsApp is a trademark of WhatsApp Inc.
@@ -169,13 +185,21 @@ WhatsApp is a trademark of WhatsApp Inc.
 This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
 
 Use this bot at your own risk and avoid spam or abuse.
+
+<br><br>
+
 ## Donations
 Support the bot development via [Saweria](https://saweria.co/atexovi)
+
+<br><br>
+
 
 ## Special Thanks
 - [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
 - [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
 - [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
+
+<br><br>
 
 ## License
 
