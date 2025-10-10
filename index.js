@@ -63,15 +63,26 @@ async function startBot() {
 
   const files = fs.readdirSync(authDir).filter(f => f.endsWith('.json'));
   if (files.length === 0) {
-    const { waNumber } = await inquirer.prompt([
-      {
-        type: 'input',
-        name: 'waNumber',
-        message: chalk.cyanBright('Masukkan nomor WhatsApp (tanpa +):'),
-        validate: (input) => /^\d{8,}$/.test(input) ? true : 'Nomor tidak valid',
-      },
-    ]);
-
+    let waNumber;
+    try {
+      const response = await inquirer.prompt([
+        {
+          type: 'input',
+          name: 'waNumber',
+          message: chalk.cyanBright('Masukkan nomor WhatsApp (tanpa +):'),
+          validate: (input) => /^\d{8,}$/.test(input) ? true : 'Nomor tidak valid',
+        },
+      ]);
+      waNumber = response.waNumber;
+    } catch (err) {
+      if (err.name === 'ExitPromptError') {
+        console.log(chalk.red('\n⚠️  Prompt dibatalkan oleh user. Menghentikan proses...'));
+        process.exit(0);
+      } else {
+        throw err;
+      }
+    }
+  
     try {
       const code = await sock.requestPairingCode(waNumber);
       console.log(chalk.greenBright('\n✅ Pairing Code Ditemukan!'));
