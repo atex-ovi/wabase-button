@@ -37,6 +37,8 @@ An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/pac
 This bot uses **Atex Ovi** as the default identity and sender name.
 You can expand this template to your needs, customizing the name, message, and interactive buttons.
 
+<br><br>
+
 ## Demos / Screenshots
 
 <table> 
