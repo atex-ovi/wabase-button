@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- BARIS 1 -->
-  <img src="https://img.shields.io/npm/v/atexovi-wabase-button?style=flat&logo=npm&logoColor=white&labelColor=CB3837&color=white" alt="npm version">
+  <img src="https://img.shields.io/npm/v/atexovi-baileys?style=flat&logo=npm&logoColor=white&labelColor=CB3837&color=white" alt="npm version">
   <img src="https://img.shields.io/badge/Node.js-%3E%3D20-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js version">
   <img src="https://img.shields.io/npm/l/atexovi-wabase-button?style=flat&logo=balance-scale&logoColor=black&color=yellow" alt="License MIT">
   <img src="https://img.shields.io/github/stars/atex-ovi/atexovi-wabase-button?style=flat&logo=github&labelColor=181717&color=white" alt="GitHub Stars">
