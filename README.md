@@ -220,7 +220,7 @@ cd wabase-button
 npm install
 ```
 4. Configure environment variables
-  - Create a .env file in the root folder and set values as shown in Termux above.
+   - Create a .env file in the root folder and set values as shown in Termux above.
 
 5. Run the Bot
 ```bash
@@ -248,7 +248,7 @@ cd wabase-button
 npm install
 ```
 4. Configure environment variables
-  - Create a .env file in the root folder and set values as shown above.
+   - Create a .env file in the root folder and set values as shown above.
 
 5. Run the Bot
 ```bash
