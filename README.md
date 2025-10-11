@@ -139,7 +139,7 @@ wabase-button/
 
 ## 📦 Wabase Button Installation Guide
 
-This section covers how to install and run Wabase Button Bot on Termux (Android), Windows, and Linux PC.
+**This section covers how to install and run Wabase Button Bot on Termux (Android), Windows, and Linux PC.**
 
 ## 🧩 Prerequisites / System Requirements
 
