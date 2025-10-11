@@ -271,9 +271,8 @@ npm start
 chmod +x index.js
 ```
 
-
-## 🌟 Done!
-Now your **Wabase Button Bot** is ready to run on **Termux,** **Windows** or **Linux PC**! 🚀
+## 🌟 Done! Your Wabase Button Bot is Ready 🚀
+Run it on Termux, Windows, or Linux PC.
 
 <br><br>
 
