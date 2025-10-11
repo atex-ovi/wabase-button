@@ -101,12 +101,12 @@ npm start
 
 <br><br>
 
-## Installation Tutorial
+## Installation Video Tutorial
 
 Watch the following video tutorial for bot installation steps:
 
 <a href="https://www.facebook.com/share/v/1HjdxkzLmR/">
-<img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="400"/>
+<img src="https://raw.githubusercontent.com/atex-ovi/thumb-fb/main/thumbnail-fb.jpg" width="500"/>
 </a>
 
 Click the image to watch the video.
