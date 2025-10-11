@@ -99,7 +99,6 @@ npm start
 ```
 > After npm start, follow the pairing code that appears in the terminal to connect WhatsApp.
 
----
 
 ## Installation Tutorial
 
@@ -269,12 +268,10 @@ npm start
 chmod +x index.js
 ```
 
----
 
 ## 🌟 Done!
 Now your **Wabase Button Bot** is ready to run on **Termux,** **Windows** or **Linux PC**! 🚀
 
----
 
 ## Disclaimer
 
