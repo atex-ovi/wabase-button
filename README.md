@@ -168,7 +168,7 @@ For **Android / Termux**: basic knowledge of Termux commands and storage permiss
 
 ### 📱 Termux (Android)
 
-1. [Install Termux](https://termux.com/) & Node.js
+1. Install [Termux](https://termux.com/) & Node.js
 ```bash
 pkg update && pkg upgrade
 pkg install nodejs git
