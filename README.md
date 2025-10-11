@@ -236,7 +236,7 @@ npm start
 sudo apt update && sudo apt install -y nodejs npm git
 ```
 
-2 Clone the repository
+2. Clone the repository
 ```bash
 git clone https://github.com/atex-ovi/wabase-button.git
 cd wabase-button
