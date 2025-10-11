@@ -46,11 +46,16 @@
 
 An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). This bot displays various types of interactive buttons:
 
+<br><br>
+
+## Features
+
+* Interactive message templates with various button types
 * Quick Reply Button
 * URL Button
 * Call Button
 * Copy Button
-* List Button
+* Buttons with multiple options
 
 This bot uses **Atex Ovi** as the default identity and sender name.
 You can expand this template to your needs, customizing the name, message, and interactive buttons.
@@ -71,6 +76,31 @@ You can expand this template to your needs, customizing the name, message, and i
 
 <br><br>
 
+## ⚡ Quick Start
+- **Termux Android**
+```bash
+pkg update && pkg upgrade
+pkg install nodejs git
+git clone https://github.com/atex-ovi/wabase-button.git
+cd wabase-button
+npm install
+cp .env.example .env
+nano .env  # edit BOT_NUMBER, OWNER_NUMBER, dll.
+npm start
+```
+- **Windows / Linux**
+```bash
+git clone https://github.com/atex-ovi/wabase-button.git
+cd wabase-button
+npm install
+cp .env.example .env   # Windows: copy .env.example .env
+nano .env               # edit BOT_NUMBER, OWNER_NUMBER, dll.
+npm start
+```
+> After npm start, follow the pairing code that appears in the terminal to connect WhatsApp.
+
+---
+
 ## Installation Tutorial
 
 Watch the following video tutorial for bot installation steps:
@@ -81,16 +111,6 @@ Watch the following video tutorial for bot installation steps:
 
 Click the image to watch the video.
 
-<br><br>
-
-## Features
-
-* Interactive message templates with various button types
-* Quick Reply Button
-* URL Button
-* Call Button
-* Copy Button
-* Buttons with multiple options
 
 <br><br>
 
@@ -117,22 +137,44 @@ wabase-button/
 
 <br><br>
 
-## Preparation (For [Termux](https://termux.com/))
+## 📦 Wabase Button Installation Guide
 
-1. Clone the repository:
+This section covers how to install and run Wabase Button Bot on Termux (Android), Windows, and Linux PC.
 
+## 🧩 Prerequisites / System Requirements
+
+Before installing the bot, make sure your system meets the following requirements:
+
+- **Node.js version 20 or higher**  
+  Check version:  
+```bash
+node -v
+```
+- **npm** (comes with Node.js)
+  Check version:
+```bash
+npm -v
+```
+- **Git installed**
+  Check version:
+```bash
+git --version
+```
+
+**Stable internet connection** to download dependencies and complete the pairing process.
+For **Android / Termux**: basic knowledge of Termux commands and storage permissions.
+
+### 📱 Termux (Android)
+
+1. [Install Termux](https://termux.com/) & Node.js
+```bash
+pkg update && pkg upgrade
+pkg install nodejs git
+```
+2. Clone the repository
 ```bash
 git clone https://github.com/atex-ovi/wabase-button.git
 cd wabase-button
-```
-
-2. Copy the `.env.example` file to `.env` and adjust the configuration:
-
-```env
-BOT_NUMBER=6281234567890
-BOT_NAME=Atex Ovi
-OWNER_NUMBER=6289876543210
-PHONE_NUMBER=6281234567890
 ```
 
 3. Install dependencies:
@@ -140,61 +182,99 @@ PHONE_NUMBER=6281234567890
 ```bash
 npm install
 ```
+4. Configure environment variables
+```bash
+cp .env.example .env
+nano .env
+```
 
+  Update values like:
+```bash
+  BOT_NUMBER=6281234567890
+BOT_NAME=Atex Ovi
+OWNER_NUMBER=6289876543210
+PHONE_NUMBER=6281234567890
+```
+5. Run the Bot
+```bash
+npm start
+```
+  Follow the pairing code instructions in the terminal to connect your WhatsApp.
+  
 <br><br>
 
-## Running the Bot
+### 🖥️ Windows
 
-With Node.js directly:
+1. Install Node.js & Git
+   - Download and install [Node.js LTS](https://nodejs.org/en/download)
+   - Download and install [Git for Windows](https://git-scm.com/download/win)
+
+2. Clone the repository
+```bash
+git clone https://github.com/atex-ovi/wabase-button.git
+cd wabase-button
+```
+3. Install dependencies:
 
 ```bash
-node index.js
+npm install
 ```
-Or using npm:
+4. Configure environment variables
+  - Create a .env file in the root folder and set values as shown in Termux above.
 
+5. Run the Bot
 ```bash
 npm start
 ```
 
-Follow the pairing code instructions that appear in the terminal to connect the bot to WhatsApp.
-
 <br><br>
 
-## Notes
+### 🐧 Linux
 
-* A `session/` folder will be created automatically to store authentication.
-* The `.env` file contains sensitive data; do not commit it to the public repository.
-* This template is flexible; you can customize the message, buttons, and branding as needed.
-
-<br><br>
-
-## .gitignore
-
+1. Install Node.js and Git
+```bash
+sudo apt update && sudo apt install -y nodejs npm git
 ```
-# Node modules
-node_modules/
 
-# Environment variables
-.env
+2 Clone the repository
+```bash
+git clone https://github.com/atex-ovi/wabase-button.git
+cd wabase-button
+```
 
-# Session folder (WhatsApp authentication)
-session/
+3. Install dependencies:
 
-# Temporary files
-tmp/
-*.log
-*.tmp
+```bash
+npm install
+```
+4. Configure environment variables
+  - Create a .env file in the root folder and set values as shown above.
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE/editor config
-.vscode/
-.idea/
+5. Run the Bot
+```bash
+npm start
 ```
 
 <br><br>
+
+## 📝 Notes / Tips
+
+- A `session/` folder will be created automatically to store authentication.
+- The `.env` file contains sensitive data; do not commit it to the public repository.
+- This template is flexible; you can customize the message, buttons, and branding as needed.
+- Pairing code always appears in the terminal when the bot is running.
+- To stop the bot, press `CTRL + C`.
+- If you encounter permission errors (Linux/Termux), run:
+```bash
+chmod +x index.js
+```
+
+---
+
+## 🌟 Done!
+Now your **Wabase Button Bot** is ready to run on **Termux,** **Windows** or **Linux PC**! 🚀
+
+---
 
 ## Disclaimer
 
