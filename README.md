@@ -164,6 +164,8 @@ git --version
 **Stable internet connection** to download dependencies and complete the pairing process.
 For **Android / Termux**: basic knowledge of Termux commands and storage permissions.
 
+<br><br>
+
 ### 📱 Termux (Android)
 
 1. [Install Termux](https://termux.com/) & Node.js
