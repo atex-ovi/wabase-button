@@ -97,7 +97,7 @@ cp .env.example .env   # Windows: copy .env.example .env
 nano .env               # edit BOT_NUMBER, OWNER_NUMBER, dll.
 npm start
 ```
-> After npm start, follow the pairing code that appears in the terminal to connect WhatsApp.
+> **After `npm start`, follow the pairing code that appears in the terminal to connect WhatsApp.**
 
 <br><br>
 
