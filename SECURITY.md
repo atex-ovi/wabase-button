@@ -20,7 +20,8 @@ If you discover a security issue in **wabase-button**, please report it responsi
   [Create a security issue](https://github.com/atex-ovi/wabase-button/issues/new/choose)
 
 ### Alternative Contact:
-  [![Telegram](https://img.shields.io/badge/Telegram-29A9EB?style=for-the-badge&logo=telegram&logoColor=white&labelColor=29A9EB)](https://t.me/atexovi)
+  [![Telegram](https://img.shields.io/badge/-Telegram-29A9EB?style=flat-square&logo=telegram&logoColor=white)](https://t.me/atexovi)
+  
 > ⚠️ Please avoid spamming or sharing sensitive info publicly. Use the GitHub Issues or Telegram contact for responsible disclosure only.
 
 ---
