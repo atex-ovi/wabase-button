@@ -28,7 +28,7 @@
   <a href="https://github.com/atex-ovi/baileys/commits/main" target="_blank">
     <img src="https://img.shields.io/github/last-commit/atex-ovi/baileys?style=flat&logo=git&labelColor=181717&color=white" alt="Last Commit">
   </a>
-  <a href="https://github.com/atex-ovi/wabase-button/releases" target="_blank">
+  <a href="https://github.com/atex-ovi/wabase-button/releases/tag/v1.0.0" target="_blank">
     <img src="https://img.shields.io/github/v/release/atex-ovi/wabase-button?style=flat&logo=whatsapp&logoColor=white&label=wabase-button&color=brightgreen" alt="Bot Version">
   </a>
   <a href="https://saweria.co/atexovi" target="_blank">
