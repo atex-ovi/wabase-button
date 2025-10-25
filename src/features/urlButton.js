@@ -6,7 +6,7 @@ export async function handleUrlButton(sock, jid) {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({
           display_text: 'Kunjungi GitHub',
-          url: 'https://github.com/atex-xovi',
+          url: 'https://github.com/atex-ovi',
           merchant_url: 'https://github.com/atex-ovi'
         })
       }
