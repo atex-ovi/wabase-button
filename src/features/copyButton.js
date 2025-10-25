@@ -6,7 +6,7 @@ export async function handleCopyButton(sock, jid) {
         name: 'cta_copy',
         buttonParamsJson: JSON.stringify({
           display_text: 'Salin Link',
-          copy_code: 'https://github.com/atex-xovi'
+          copy_code: 'https://github.com/atex-ovi'
         })
       }
     ]
