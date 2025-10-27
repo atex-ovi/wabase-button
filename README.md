@@ -1,4 +1,7 @@
-# Atex Ovi WA Bot
+<h1 align="center" style="font-size:72px;">
+  Atex Ovi WA Bot (wabase-button)
+</h1>
+<br>
 
 <p align="center">
 
@@ -40,13 +43,19 @@
 
 </p>
 
-<br><br>
+<br>
 
 ![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/atex-logo-npm/main/wabase-logo.jpg)
 
-An interactive WhatsApp bot based on [atexovi-baileys](https://www.npmjs.com/package/atexovi-baileys). This bot displays various types of interactive buttons:
+<br>
 
-<br><br>
+<p align="center">
+  <strong style="font-size:24px;">
+    An interactive WhatsApp bot based on 
+    <a href="https://www.npmjs.com/package/atexovi-baileys">atexovi-baileys</a>. 
+    This bot displays various types of interactive buttons:
+  </strong>
+</p>
 
 ## Features
 
@@ -110,6 +119,37 @@ Watch the following video tutorial for bot installation steps:
 </a>
 
 Click the image to watch the video.
+
+<br><br>
+
+## 🔧 Optional Dependencies (Advanced Features)
+
+> [!IMPORTANT]
+> These packages are optional and only required if you want to enable advanced interactive button features or image processing in the bot.
+> Installing them is **not mandatory** for basic bot functionality.
+
+### 1. Install Optional Packages
+
+Run the following command in your bot directory:
+
+```bash
+npm install min-document@latest xhr@latest load-bmfont@latest @jimp/core@latest @jimp/plugins@latest
+```
+### 2. What These Packages Do
+
+| Package        | Purpose                                                                                   |
+|----------------|-------------------------------------------------------------------------------------------|
+| `min-document` | Fixes prototype pollution vulnerabilities in older versions and is used internally by some button/image libraries |
+| `xhr`          | HTTP requests dependency used by image and button processing libraries                    |
+| `load-bmfont`  | Loads bitmap fonts for image-based buttons or templates                                    |
+| `@jimp/core`   | Core image processing library (used for button graphics, thumbnails, etc.)                |
+| `@jimp/plugins`| Additional image manipulation plugins for Jimp (e.g., text, resize, color filters)        |
+
+### 3. Notes / Tips
+
+- If you skip this step, the bot will still run normally but some **advanced button templates or image features** may not work.  
+- You can safely install these packages in your own environment without affecting other users if you are testing or customizing features.  
+- Always restart the bot after installing optional dependencies to ensure they are loaded correctly.
 
 
 <br><br>
