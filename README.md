@@ -299,7 +299,7 @@ npm start
 
 <br><br>
 
-[!TIP]
+> [!TIP]
 > - A `session/` folder will be created automatically to store authentication.
 > - The `.env` file contains sensitive data; do not commit it to the public repository.
 > - This template is flexible; you can customize the message, buttons, and branding as needed.
