@@ -322,6 +322,13 @@ chmod +x index.js
 
 <br><br>
 
+## Special Thanks
+- [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
+- [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
+- [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
+
+<br><br>
+
 ## Support & Donations
 If you find this project useful, consider supporting the development:
 
@@ -329,13 +336,6 @@ If you find this project useful, consider supporting the development:
 
 <br><br>
 
-
-## Special Thanks
-- [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
-- [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
-- [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
-
-<br><br>
 
 ## License
 
