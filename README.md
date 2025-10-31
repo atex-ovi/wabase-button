@@ -323,10 +323,8 @@ chmod +x index.js
 <br><br>
 
 ## Donations
-<a href="https://saweria.co/atexovi" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Saweria-FFA726?style=flat&logo=ko-fi&logoColor=white" 
-       alt="Support development of Atex Ovi WA Bot">
-</a>
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://saweria.co/atexovi)
 
 <br><br>
 
