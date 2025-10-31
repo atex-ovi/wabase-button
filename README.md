@@ -323,7 +323,10 @@ chmod +x index.js
 <br><br>
 
 ## Donations
-Support the bot development via [Saweria](https://saweria.co/atexovi)
+<a href="https://saweria.co/atexovi" target="_blank">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Saweria-FFA726?style=flat&logo=ko-fi&logoColor=white" 
+       alt="Support development of Atex Ovi WA Bot">
+</a>
 
 <br><br>
 
