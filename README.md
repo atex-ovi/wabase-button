@@ -315,13 +315,10 @@ chmod +x index.js
 
 <br><br>
 
-## Disclaimer
-
-WhatsApp is a trademark of WhatsApp Inc.
-
-This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
-
-Use this bot at your own risk and avoid spam or abuse.
+> [!CAUTION]
+> WhatsApp is a trademark of WhatsApp Inc.
+> This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
+> Use this bot at your own risk and avoid spam or abuse.
 
 <br><br>
 
