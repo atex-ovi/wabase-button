@@ -299,14 +299,13 @@ npm start
 
 <br><br>
 
-## 📝 Notes / Tips
-
-- A `session/` folder will be created automatically to store authentication.
-- The `.env` file contains sensitive data; do not commit it to the public repository.
-- This template is flexible; you can customize the message, buttons, and branding as needed.
-- Pairing code always appears in the terminal when the bot is running.
-- To stop the bot, press `CTRL + C`.
-- If you encounter permission errors (Linux/Termux), run:
+[!TIP]
+> - A `session/` folder will be created automatically to store authentication.
+> - The `.env` file contains sensitive data; do not commit it to the public repository.
+> - This template is flexible; you can customize the message, buttons, and branding as needed.
+> - Pairing code always appears in the terminal when the bot is running.
+> - To stop the bot, press `CTRL + C`.
+> - If you encounter permission errors (Linux/Termux), run:
 ```bash
 chmod +x index.js
 ```
