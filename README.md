@@ -322,7 +322,8 @@ chmod +x index.js
 
 <br><br>
 
-## Donations
+## Support & Donations
+If you find this project useful, consider supporting the development:
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://saweria.co/atexovi)
 
