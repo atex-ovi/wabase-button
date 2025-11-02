@@ -20,14 +20,16 @@ If you discover a security issue in **wabase-button**, please report it responsi
   [Create a security issue](https://github.com/atex-ovi/wabase-button/issues/new/choose)
 
 ### Alternative Contact:
-  [![Telegram](https://img.shields.io/badge/-Telegram-29A9EB?style=flat-square&logo=telegram&logoColor=white)](https://t.me/atexovi)
+- [![Telegram](https://img.shields.io/badge/-Telegram-29A9EB?style=flat-square&logo=telegram&logoColor=white)](https://t.me/atexovi)  
+- [![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/atex.ovi)
   
-> ⚠️ Please avoid spamming or sharing sensitive info publicly. Use the GitHub Issues or Telegram contact for responsible disclosure only.
+> [!IMPORTANT]
+> Please avoid spamming or sharing sensitive info publicly. Use the GitHub Issues, Telegram, or Facebook contact for responsible disclosure only.
 
 ---
 
-## Notes
-
-- Ensure your project is updated to the latest supported version.  
-- Only versions marked ✅ in the table receive security fixes.  
-- This policy applies to all forks and derivative works based on **wabase-button**.
+> [!NOTE]
+> - Ensure your project is updated to the latest supported version.  
+> - Only versions marked ✅ in the table receive security fixes.  
+> - This policy applies to all forks and derivative works based on **wabase-button**.
+---
