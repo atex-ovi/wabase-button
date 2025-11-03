@@ -1,6 +1,6 @@
 export async function handleQuickReplyButton(sock, jid) {
   await sock.sendMessage(jid, {
-    text: 'Tekan tombol di bawah untuk Quick Reply:',
+    text: 'Press the button below for Quick Reply:',
     title: 'Quick Reply Button',
     interactiveButtons: [
       {
