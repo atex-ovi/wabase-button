@@ -33,16 +33,16 @@ async function startBot() {
     const { connection, lastDisconnect } = update;
 
     if (connection === 'open') {
-      console.log(chalk.greenBright('✅ Terhubung ke WhatsApp!'));
+      console.log(chalk.greenBright('✅ Connect to WhatsApp!'));
       console.log(chalk.cyan(`👤 User: ${sock.user?.id || 'Unknown'}`));
     } else if (connection === 'close') {
       const reason = lastDisconnect?.error?.output?.statusCode;
       const shouldReconnect = reason !== DisconnectReason.loggedOut;
       if (shouldReconnect) {
-        console.log(chalk.yellow('🔁 Koneksi terputus, reconnecting...'));
+        console.log(chalk.yellow('🔁 Connection lost, reconnecting...'));
         startBot();
       } else {
-        console.log(chalk.red('❌ Session invalid, hapus folder session/ dan coba lagi.'));
+        console.log(chalk.red('❌ Session invalid, delete the session folder and try again..'));
       }
     }
   });
@@ -53,8 +53,8 @@ async function startBot() {
     const msg = m.messages?.[0];
     if (!msg || msg.key.fromMe) return;
 
-    console.log(chalk.blueBright('Pesan masuk dari:'), msg.key.remoteJid);
-    console.log(chalk.magenta('Tipe pesan:'), Object.keys(msg.message || {}));
+    console.log(chalk.blueBright('Incoming message from:'), msg.key.remoteJid);
+    console.log(chalk.magenta('Message type:'), Object.keys(msg.message || {}));
 
     try { handler(sock, msg); } catch (err) {
       console.error(chalk.red('[Handler Error]'), err);
@@ -69,14 +69,14 @@ async function startBot() {
         {
           type: 'input',
           name: 'waNumber',
-          message: chalk.cyanBright('Masukkan nomor WhatsApp (tanpa +):'),
-          validate: (input) => /^\d{8,}$/.test(input) ? true : 'Nomor tidak valid',
+          message: chalk.cyanBright('Enter WhatsApp number (without +):'),
+          validate: (input) => /^\d{8,}$/.test(input) ? true : 'Invalid number',
         },
       ]);
       waNumber = response.waNumber;
     } catch (err) {
       if (err.name === 'ExitPromptError') {
-        console.log(chalk.red('\n⚠️  Prompt dibatalkan oleh user. Menghentikan proses...'));
+        console.log(chalk.red('\n⚠️  Prompt canceled by user. Stopping the process...'));
         process.exit(0);
       } else {
         throw err;
@@ -85,12 +85,12 @@ async function startBot() {
   
     try {
       const code = await sock.requestPairingCode(waNumber);
-      console.log(chalk.greenBright('\n✅ Pairing Code Ditemukan!'));
+      console.log(chalk.greenBright('\n✅ Pairing Code Found!'));
       console.log(chalk.yellowBright('📌 Kode:'), chalk.bold.magenta(code));
-      console.log(chalk.cyan('Buka WhatsApp > Perangkat Tertaut > Tautkan Perangkat'));
-      console.log(chalk.greenBright('\nMenunggu koneksi otomatis...'));
+      console.log(chalk.cyan('Open WhatsApp > Linked Devices > Link Device'));
+      console.log(chalk.greenBright('\nWaiting for automatic connection...'));
     } catch (error) {
-      console.error(chalk.red('❌ Error saat meminta pairing code:'), error);
+      console.error(chalk.red('❌ Error requesting pairing code:'), error);
     }
   }
 }
