@@ -1,11 +1,11 @@
 export async function handleCallButton(sock, jid) {
   await sock.sendMessage(jid, {
-    text: '📞 This is an example of a Call Button!',
+    text: '📞 This is a Call Button example!',
     interactiveButtons: [
       {
         name: 'cta_call',
         buttonParamsJson: JSON.stringify({
-          display_text: 'Call Owner',
+          display_text: 'Call the Owner',
           phone_number: '628xxxxxxx'
         })
       }
