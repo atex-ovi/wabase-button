@@ -52,10 +52,9 @@ export async function handler(sock, msg) {
 
 async function sendIntroMenu(sock, from) {
   await sock.sendMessage(from, {
-    text: '🤖 Hello! \nSelect the menu below:',
-    //title: 'Atex Ovi Bot Template',
-    subtitle: 'Intro All Button',
-    footer: '© Atex Ovi 2025 | MIT License',
+    text: '🤖 Hello!\nChoose an option from the menu below:',
+    subtitle: 'All Button Showcase',
+    footer: '© Atex Ovi 2025 — MIT License',
     interactiveButtons: [
       {
         name: 'single_select',
@@ -63,12 +62,12 @@ async function sendIntroMenu(sock, from) {
           title: 'Menu',
           sections: [
             {
-              title: 'Feature Options',
+              title: 'Available Features',
               rows: [
-                { title: 'Call Button', description: 'Call button example', id: 'call' },
-                { title: 'URL Button', description: 'Example of button url', id: 'url' },
-                { title: 'Quick Reply Button', description: 'Example of a quick reply button', id: 'quick' },
-                { title: 'Copy Button', description: 'Copy button example', id: 'copy' },
+                { title: 'Call Button', description: 'Example: Call Button', id: 'call' },
+                { title: 'URL Button', description: 'Example: URL Button', id: 'url' },
+                { title: 'Quick Reply Button', description: 'Example: Quick Reply Button', id: 'quick' },
+                { title: 'Copy Button', description: 'Example: Copy Button', id: 'copy' },
               ],
             },
           ],
