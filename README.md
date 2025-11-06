@@ -50,7 +50,7 @@
 
 <br>
 
-![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/img-assets/main/wabase-logo.jpg)
+![Atex Ovi Logo](https://raw.githubusercontent.com/atex-ovi/img-assets/main/wabase-btn.jpg)
 
 <br>
 
