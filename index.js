@@ -29,8 +29,9 @@ function showBanner() {
   const text = figlet.textSync('Wabase - Button', { font: 'Slant' });
   console.log(chalk.cyanBright(centerText(text)));
   const desc = 'An interactive WhatsApp bot with smart button responses';
-  console.log('\n' + chalk.gray(centerText('─'.repeat(desc.length))));
-  console.log(chalk.greenBright(centerText(desc)) + '\n');
+  const line = '─'.repeat(desc.length);
+  console.log(chalk.greenBright(centerText(desc)));
+  console.log(chalk.gray(centerText(line)) + '\n');
 }
 
 async function startBot() {
