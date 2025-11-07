@@ -236,7 +236,7 @@ nano .env
 ```
 
   Update values like:
-```bash
+```env
   BOT_NUMBER=6281234567890
 BOT_NAME=Atex Ovi
 OWNER_NUMBER=6289876543210
