@@ -330,7 +330,7 @@ chmod +x index.js
 
 ## Special Thanks
 - [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
-- [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
+- [adiwajshing](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
 - [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
 
 <br><br>
