@@ -110,37 +110,6 @@ Click the image to watch the video.
 
 <br><br>
 
-## 🔧 Optional Dependencies (Advanced Features)
-
-> [!IMPORTANT]
-> These packages are optional and only required if you want to enable advanced interactive button features or image processing in the bot.
-> Installing them is **not mandatory** for basic bot functionality.
-
-### 1. Install Optional Packages
-
-Run the following command in your bot directory:
-
-```bash
-npm install min-document@latest xhr@latest load-bmfont@latest @jimp/core@latest @jimp/plugins@latest
-```
-### 2. What These Packages Do
-
-| Package        | Purpose                                                                                   |
-|----------------|-------------------------------------------------------------------------------------------|
-| `min-document` | Fixes prototype pollution vulnerabilities in older versions and is used internally by some button/image libraries |
-| `xhr`          | HTTP requests dependency used by image and button processing libraries                    |
-| `load-bmfont`  | Loads bitmap fonts for image-based buttons or templates                                    |
-| `@jimp/core`   | Core image processing library (used for button graphics, thumbnails, etc.)                |
-| `@jimp/plugins`| Additional image manipulation plugins for Jimp (e.g., text, resize, color filters)        |
-
-### 3. Notes / Tips
-
-- If you skip this step, the bot will still run normally but some **advanced button templates or image features** may not work.  
-- You can safely install these packages in your own environment without affecting other users if you are testing or customizing features.  
-- Always restart the bot after installing optional dependencies to ensure they are loaded correctly.
-
-
-<br><br>
 
 ## Directory Structure
 
@@ -220,7 +189,7 @@ nano .env
 
   Update values like:
 ```env
-  BOT_NUMBER=6281234567890
+BOT_NUMBER=6281234567890
 BOT_NAME=Atex Ovi
 OWNER_NUMBER=6289876543210
 PHONE_NUMBER=6281234567890
