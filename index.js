@@ -11,6 +11,75 @@ import { handler } from './src/handler.js';
 
 dotenv.config({ debug: false });
 
+const originalError = console.error;
+const originalLog = console.log;
+const originalStdoutWrite = process.stdout.write;
+
+const FILTER_PATTERNS = [
+  'Bad MAC',
+  'Failed to decrypt message with any known session',
+  'Session error:',
+  'Failed to decrypt',
+  'Closing open session',
+  'Closing session:',
+  'SessionEntry',
+  '_chains:',
+  'registrationId:',
+  'currentRatchet:',
+  'indexInfo:',
+  '<Buffer',
+  'pubKey:',
+  'privKey:',
+  'baseKey:',
+  'remoteIdentityKey:',
+  'lastRemoteEphemeralKey:',
+  'ephemeralKeyPair:',
+  'chainKey:',
+  'chainType:',
+  'messageKeys:'
+];
+
+process.stdout.write = function(chunk, encoding, callback) {
+  const str = chunk?.toString() || '';
+  
+  const shouldFilter = FILTER_PATTERNS.some(pattern => str.includes(pattern));
+  
+  if (shouldFilter) {
+    if (str.includes('Closing open session')) {
+      const cleanMsg = chalk.blue('🔒 Signal: Encryption session updated\n');
+      return originalStdoutWrite.call(this, Buffer.from(cleanMsg), encoding, callback);
+    }
+    
+    if (typeof callback === 'function') callback();
+    return true;
+  }
+  
+  return originalStdoutWrite.call(this, chunk, encoding, callback);
+};
+
+console.error = function(...args) {
+  const msg = args.join(' ');
+  
+  if (FILTER_PATTERNS.some(pattern => msg.includes(pattern))) {
+    if (msg.includes('Bad MAC')) {
+      console.log(chalk.yellow('🔄 Signal Protocol: Securing connection...'));
+    }
+    return;
+  }
+  
+  originalError.apply(console, args);
+};
+
+console.log = function(...args) {
+  const msg = args.join(' ');
+  
+  if (FILTER_PATTERNS.some(pattern => msg.includes(pattern))) {
+    return;
+  }
+  
+  originalLog.apply(console, args);
+};
+
 const authDir = path.join(process.cwd(), 'session');
 
 function centerText(text) {
@@ -101,7 +170,7 @@ async function startBot() {
       console.log(chalk.greenBright('\n✅ Pairing Code Found!'));
       console.log(chalk.yellowBright('📌 Code:'), chalk.bold.magenta(code));
       console.log(chalk.cyan('📱 On WhatsApp: Linked Devices → Link a Device'));
-      console.log(chalk.greenBright('\⏳ Waiting for automatic connection...'));
+      console.log(chalk.greenBright('⏳ Waiting for automatic connection...'));
     } catch (error) {
       console.error(chalk.red('❌ Error requesting pairing code:'), error);
     }
@@ -109,4 +178,3 @@ async function startBot() {
 }
 
 startBot();
-    
